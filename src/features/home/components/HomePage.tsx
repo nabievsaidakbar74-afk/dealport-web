@@ -1,12 +1,13 @@
+
 import BestSelling from './BestSelling'
-import HeroSection from './HeroSection'
 import LimitedTimeDeal from './LimitedTimeDeal'
 import StartExpolingNow from './StartExpolingNow'
-import TrendingProducts from './TrendingProducts'
+import TrendingProducts from './TopProducts'
+import HeroSlider from './HeroSlider'
 export default function HomePage() {
   return (
     <main>
-      <HeroSection />
+      <HeroSlider />
       <TrendingProducts />
       <StartExpolingNow />
       <BestSelling />
